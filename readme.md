@@ -32,9 +32,9 @@ podman build --platform linux/amd64 --manifest hello-world-java:latest .
 podman manifest push hello-world-java:latest
 ```
 
-## Alternatively, one can build multi-arch containers on a single architecture machine e.g. x86 with a quemu emulation of s390x architecture.
+## Alternatively, one can build multi-arch containers on a single architecture machine e.g. x86 with a qemu emulation of s390x architecture.
 
-## Building on x86 systems for s390x with quemu
+## Building on x86 systems for s390x with qemu
 e.g.
 ```
 sudo dnf install qemu-user-static
